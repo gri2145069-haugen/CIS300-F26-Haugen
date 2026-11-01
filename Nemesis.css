@@ -1,0 +1,364 @@
+html {
+    min-height: 100%;
+}
+
+header {
+    background-image: url("Space G1 Logo.jpg");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 30% auto;
+    color: #ffffff;
+    height: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Navigation styles */
+nav {
+    background: linear-gradient(to left, #FFFFFF, #8b079f);
+    font-weight: bold;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.collection-table {
+    width: 95%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow:
+        0 0 10px red,
+        0 0 20px purple;
+}
+
+.collection-table th {
+    background: linear-gradient(to right, #ff0000, #8000ff);
+    color: white;
+    padding: 12px;
+    text-align: center;
+}
+
+.collection-table td {
+    border: 1px solid #cccccc;
+    padding: 10px;
+    text-align: left;
+}
+
+.collection-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.collection-table tr:hover {
+    background-color: #e6d4ff;
+}
+
+/* Global document styles */
+body {
+    min-height: 100%;
+    margin: 0;
+    background: linear-gradient(to left, #FFFFFF, #8b079f);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Glowing divider */
+.glow-divider {
+    width: 95%;
+    height: 6px;
+    margin: 20px auto 30px auto;
+    background: linear-gradient(
+        90deg,
+        #ff0000,
+        #ff4d4d,
+        #8000ff,
+        #c000ff
+    );
+    border-radius: 20px;
+    box-shadow:
+        0 0 10px rgba(255, 0, 0, 0.9),
+        0 0 20px rgba(255, 0, 0, 0.8),
+        0 0 30px rgba(128, 0, 255, 0.9),
+        0 0 40px rgba(192, 0, 255, 0.8);
+}
+
+/* Welcome text section */
+.welcome-content {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+    line-height: 1.5;
+    text-align: justify;
+    font-size: 1.0em;
+}
+
+.video-section {
+    width: 90%;
+    text-align: center;
+    margin: 50px auto;
+}
+
+.video-section video {
+    width: 60%;
+    max-width: 600px;
+    display: block;
+    margin: 0 auto;
+
+    border-radius: 15px;
+
+    box-shadow:
+        0 0 10px #ff0000,
+        0 0 20px #ff0000,
+        0 0 20px #8000ff,
+        0 0 40px #8000ff;
+}
+``
+.video-section h2 {
+    margin-bottom:0px;
+    color: white;
+
+    text-shadow:
+        0 0 5px #ff0000,
+        0 0 10px #ff0000,
+        0 0 15px #8000ff,
+        0 0 25px #8000ff;
+}
+
+.video-section video {
+    width: 80%;
+    max-width: 800px;
+    border-radius: 15px;
+
+    box-shadow:
+        0 0 10px #ff0000,
+        0 0 20px #ff0000,
+        0 0 20px #8000ff,
+        0 0 40px #8000ff;
+}
+
+.background-story {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+    line-height: 1.5;
+    text-align: justify;
+    font-size: 1.0em;
+}
+
+.market-info {
+     max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+    line-height: 1.5;
+    text-align: justify;
+    font-size: 1.0em;
+}
+
+/* Questions page container */
+.container {
+    width: 80%;
+    max-width: 600px;
+    text-align: center;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h2 {
+    color: white;
+    margin-bottom: 20px;
+}
+
+/* Glowing textbox border */
+.textbox-glow {
+    padding: 4px;
+    border-radius: 14px;
+    background: linear-gradient(
+        135deg,
+        #ff0000,
+        #ff4444,
+        #8000ff,
+        #c000ff
+    );
+    box-shadow:
+        0 0 15px rgba(255, 0, 0, 0.7),
+        0 0 30px rgba(128, 0, 255, 0.7),
+        0 0 45px rgba(192, 0, 255, 0.5);
+}
+
+textarea {
+    width: 100%;
+    height: 200px;
+    padding: 12px;
+    font-size: 16px;
+    resize: vertical;
+    border: none;
+    border-radius: 10px;
+    box-sizing: border-box;
+    background-color: #1e1e1e;
+    color: white;
+    outline: none;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 25px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    background-color: #0078D7;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #005A9E;
+}
+
+
+.glow-divider {
+    display: block;
+    width: 95%;
+    height: 6px;
+    margin: 20px auto 30px auto;
+    background: linear-gradient(
+        90deg,
+        #ff0000,
+        #ff4d4d,
+        #8000ff,
+        #c000ff
+    );
+    border-radius: 20px;
+    box-shadow:
+        0 0 10px rgba(255, 0, 0, 0.9),
+        0 0 20px rgba(255, 0, 0, 0.8),
+        0 0 30px rgba(128, 0, 255, 0.9),
+        0 0 40px rgba(192, 0, 255, 0.8);
+
+
+
+}
+
+footer {
+    bottom-padding: 50px;
+    text-align: center;
+
+
+.velocitron-key {
+    width: 20px;
+    height: auto;
+    margin-right: 20px;
+}
+
+/* Centers the Ransack photos as a group */
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+
+    width: 100%;
+    margin: 60px auto;
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+/* Makes both images equal in size */
+.image-container img {
+    display: block;
+    width: 450px;
+    height: 700px;
+    object-fit: contain;
+    margin: 0;
+}
+
+/* Keeps the images inside smaller screens */
+@media screen and (max-width: 950px) {
+    .image-container {
+        flex-wrap: wrap;
+    }
+
+    .image-container img {
+        width: min(450px, 90%);
+        height: auto;
+    }
+}
+
+
+
+/* Center character title */
+.character-title,
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Center description text above images */
+.character-description,
+p {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 0 20px;
+    line-height: 1.6;
+}
+
+/* Centers the Ransack photos as a group */
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 40px auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+/* Makes both images identical and responsive */
+.image-container img {
+    display: block;
+    width: 100%;
+    max-width: 450px;
+    height: auto;
+    object-fit: contain;
+    border-radius: 10px;
+}
+
+/* Centers title row and Velocitron Key image */
+.title-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.velocitron-key {
+    width: 75px;
+    height: auto;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 950px) {
+    .image-container {
+        flex-direction: column;
+    }
+
+    .image-container img {
+        width: 90%;
+        max-width: 450px;
+    }
+
+    .title-row {
+        flex-direction: column;
+    }
+}
+
+
